@@ -1,0 +1,39 @@
+# Module short name
+MODULEIDNAME       = numconvlib
+
+# Module version number
+MODULEVERSION      = 1.0.1
+
+# Module release date
+MODULEDATE         = 2003/03/25
+
+# Module long description
+MODULEDESCRIPTION  = Library to convert a number from one numbersystem to another.
+
+# Module dependencies
+MODULEDEPENDENCIES =
+
+# Module suggestions
+MODULESUGGESTIONS  =
+
+MODULE_AUTHOR        = Christiaan Westerbeek
+
+MODULE_AUTHOR_EMAIL  = c_westerbeek@hotmail.com
+
+MODULE_AUTHOR_SITE   =
+
+MODULE_SUPPORT_EMAIL = support@ampoliros.com
+
+MODULE_BUGS_EMAIL    = bugs@ampoliros.com
+
+MODULE_COPYRIGHT     =
+
+MODULE_LICENSE       = Free
+
+MODULE_LICENSE_FILE  =
+
+MODULE_MAINTAINER	= Alex Pagnoni
+
+MODULE_MAINTAINER_EMAIL	= alex@ampoliros.com
+
+MODULE_CATEGORY     = libraries

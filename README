@@ -1,0 +1,52 @@
+General information
+-------------------
+
+# match_class by Christiaan Westerbeek (c_westerbeek@hotmail.com), 29 sept 2001
+# This class contains only one function: numconv($systemin, $systemout, $number, $length)
+# With numconv(.,.,.,.) you can convert a number from one numbersystem to another. Some examples:
+# numconv(10,16,   255  , 4); returns     00ff : converts the decimal number 100 to the hexadecimal value. Output must be 4 characters long.
+# numconv(16, 8,   abc34, 4); returns  2536064 : converts the hexadecimal number abc34 to the octal value. Output must be 4 characters long.
+# numconv( 2, 8,   11101, 0); returns       35 : converts the binary number 11101 to the octal value. Output remains normal length.
+# numconv( 6, 5,      20, 8); returns 00000022 : converts the six-system value 20 to the five-system value. Output must be 8 characters long.
+# numconv( 2,10,   11101, 6); returns   000029 : converts the binary number 11101 to the decimal value. Output must be 6 characters long.
+# numconv(10,30,59851949, 0); returns   2dqm4t : converts the decimal number 59851949 to the thirty-system value. Output remains normal length.
+
+
+
+License
+-------
+See the file named LICENSE.
+
+
+
+Requirements
+------------
+
+Serverside:
+	A working Ampoliros II platform installation.
+
+Clientside:
+	a web browser with HTML 4.0 and CSS support.
+
+
+
+Installation
+------------
+
+See the file named INSTALL.
+
+
+
+Additional Information
+----------------------
+
+Ampoliros official home page:
+	http://www.ampoliros.com
+
+
+
+Disclaimer
+----------
+
+There is no warranty, expressed or implied, associated with this product.
+Use at your own risk.
